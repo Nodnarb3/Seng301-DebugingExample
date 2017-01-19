@@ -83,28 +83,28 @@ namespace SENG_Tutorial
 
     class Program
     {
-        static void Main(string[] args)
-        {
-            Rectangle rect = new Rectangle(10d, 10d);
+        //static void Main(string[] args)
+        //{
+        //    Rectangle rect = new Rectangle(10d, 10d);
 
-            Console.WriteLine(rect.Area());
-
-
-            int l = Console.CursorLeft;
-            int t = Console.CursorTop;
-            Console.SetCursorPosition(10, 10);
-            Console.BackgroundColor = ConsoleColor.Cyan;
-            Console.SetCursorPosition(l,t);
-
-            rect.Height = 100d;
-            rect.Width = 10d;
-
-            Console.WriteLine(rect.Area());
-
-            Console.ReadLine();
+        //    Console.WriteLine(rect.Area());
 
 
+        //    int l = Console.CursorLeft;
+        //    int t = Console.CursorTop;
+        //    Console.SetCursorPosition(10, 10);
+        //    Console.BackgroundColor = ConsoleColor.Cyan;
+        //    Console.SetCursorPosition(l,t);
 
-        }
+        //    rect.Height = 100d;
+        //    rect.Width = 10d;
+
+        //    Console.WriteLine(rect.Area());
+
+        //    Console.ReadLine();
+
+
+
+        //}
     }
 }
